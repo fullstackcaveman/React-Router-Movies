@@ -34,6 +34,10 @@ export default function App() {
 
 	return (
 		<Switch>
+			<Route path='/movies/:movieId'>
+				<Movie movies={movieList} />
+			</Route>
+
 			<Route path='/'>
 				<MovieList movies={movieList} />
 			</Route>
