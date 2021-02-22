@@ -34,12 +34,12 @@ Once you are done your application will have two routes:
 - [x] Wrap your app with the router.
 - [ ] Inside your App file add two routes.
   - [x] one route for `/` that loads the `MovieList` component. This component will need the movies injected into it via props.
-  - [ ] one route that will take an `id` parameter after`/movies/` (ex: `/movies/2`, `/movies/3` where the id is dynamic). This route should load the `Movie` component.
+  - [x] one route that will take an `id` parameter after`/movies/` (ex: `/movies/2`, `/movies/3` where the id is dynamic). This route should load the `Movie` component.
 
 #### Add Functionality
 
-- [ ] When a user clicks on the movie card inside `MovieList` they should be taken to `/movies/{id of clicked movie here}` to see the details of the selected movie.
-- [ ] You will need to modify line 7 of `Movie.js` to get the id of the selected movie from the URL.
+- [x] When a user clicks on the movie card inside `MovieList` they should be taken to `/movies/{id of clicked movie here}` to see the details of the selected movie.
+- [x] You will need to modify line 7 of `Movie.js` to get the id of the selected movie from the URL.
 - [ ] Add functionality so the `Home` button on the `SavedList` component navigates back to home.
 - [ ] You should now be able to navigate back and forth between the list of movies and the detailed view of a single movie.
 
